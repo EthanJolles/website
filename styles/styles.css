@@ -1,0 +1,26 @@
+/* background/body styling */
+body {
+  background-color: #222831;
+  color: white;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+/*navbar*/
+#nav ul {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+#nav a {
+  color: white;
+}
+/*headers*/
