@@ -4,6 +4,7 @@ TODO Profile picture/header picture
 TODO Add colors to the site for different sections
 TODO Properly space out and style navbar
 TODO Add responsiveness for different width/height
+TODO Clean up IDs and Classes so everything is more legible
 
 #done
 Create navbar
