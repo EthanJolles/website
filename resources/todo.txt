@@ -3,6 +3,7 @@ TODO Make navbar stick to the top of the screen on scroll
 TODO Profile picture/header picture
 TODO Add colors to the site for different sections
 TODO Properly space out and style navbar
+TODO Add responsiveness for different width/height
 
 #done
 Create navbar

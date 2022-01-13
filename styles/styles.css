@@ -1,26 +1,46 @@
 /* background/body styling */
 body {
-  background-color: #222831;
-  color: white;
-  padding-left: 25%;
-  padding-right: 25%;
+  background-color: #393E46;
+  color: #EEEEEE;
 }
 
 /*navbar*/
-#nav ul {
-  height: 50px;
-  margin: 0;
-  padding: 0;
-  color: rgb(255, 255, 255);
-  text-align: center;
-}
-
-#nav li {
-  list-style-type: none;
-  display: inline;
+#nav {
+  overflow: hidden;
+  background-color: #222831;
+  text-align: right;
+  height: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #nav a {
-  color: white;
+  color: #EEEEEE;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  vertical-align: middle;
+  text-decoration: none;
+  list-style-type: none;
+  height: 30px;
+  width: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
+#nav a:hover {
+  color: #00ADB5;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 /*headers*/
+h2 {
+  font-size: 30px;
+}
