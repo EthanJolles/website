@@ -1,45 +1,48 @@
 /* background/body styling */
 body {
-  background-color: #393E46;
-  color: #EEEEEE;
+	background-color: #393E46;
+	color: #EEEEEE;
+	padding-left: 15%;
+	padding-right: 15%;
 }
-
 /*navbar*/
-.topnav {
-  overflow: hidden;
-  background-color: #222831;
-  width: 100%;
-  text-align: left;
-  vertical-align: middle;
-  align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-
+#navbar {
+	background-color: #222831;
+	display: inline-block;
 	position: sticky;
 	top: 0;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
 }
-
-.topnav a {
-  color: #EEEEEE;
-  display: inline-block;
-  font-family: 'Lato', sans-serif;
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
-  line-height: 30px;
-
-  height: 30px;
-  width: 30px;
-
-  padding-left: 30px;
-  padding-right: 30px;
+#navbar li {
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10;
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-family: 'Lato', sans-serif;
 }
-
-#nav a:hover {
-  color: #00ADB5;
+#navbar a {
+	text-align: center;
+	text-decoration: none;
+	color: #EEEEEE;
 }
-
+#navbar a:hover {
+	color: #00ADB5;
+}
 /*headers*/
 h2 {
-  font-size: 30px;
+	font-size: 30px;
+}
+p {
+	text-align: center;
+	vertical-align: middle;
 }
